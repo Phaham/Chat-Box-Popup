@@ -7,12 +7,6 @@
   box-sizing: border-box;
 }
 
-/* html,
-body {
-  height: 100%;
-} */
-
-
 
 body {
   /* background: linear-gradient(135deg, #044f48, #345093); */
@@ -80,7 +74,6 @@ body {
 }
 
 .chat-title h2 {
-  /* color: rgba(255, 255, 255, 0.5); */
   color: #aaa;
   font-size: 8px;
   letter-spacing: 1px;
@@ -108,7 +101,6 @@ body {
 
 .messages {
   flex: 1 1 auto;
-  /* color: rgba(255, 255, 255, 0.5); */
   color: #f9f9fc;
   overflow: hidden;
   position: relative;
@@ -141,7 +133,6 @@ body {
 
 .messages .message {
   clear: both;
-  /*❗ change this to flex*/
   float: left;
   padding: 6px 10px 7px;
   border-radius: 10px 10px 10px 0;
@@ -192,7 +183,6 @@ body {
 
 .messages .message.message-personal {
   float: right;
-  /*❗ change this to flex*/
   color: #fff;
   text-align: right;
   background: linear-gradient(120deg, #248A52, #257287);
@@ -275,7 +265,6 @@ body {
   width: 3px;
   height: 3px;
   border-radius: 50%;
-  /* background: rgba(255, 255, 255, 0.5); */
   background: #f9f9fc;
   z-index: 2;
   margin-top: 4px;
@@ -288,7 +277,6 @@ body {
   display: flex;
   flex: 0 1 40px;
   width: 100%;
-  /* background: rgba(0, 0, 0, 0.3); */
   background: rgb(255, 255, 255, .7);
   padding: 10px;
   position: relative;
@@ -299,48 +287,25 @@ body {
   border: none;
   outline: none !important;
   resize: none;
-  /* color: rgba(255, 255, 255, 0.7); */
   height: 17px;
   font-size: 13px;
   margin: 0;
   padding-right: 20px;
   width: 265px;
-  /* color: rgba(255, 255, 255, 0.24); */
 }
 
 .message-input {
   caret-color: #444;
-  /* color: rgba(0, 0, 0, 0.6) */
 }
 
 .message-box textarea:focus:-webkit-placeholder {
   color: rgba(255, 255, 255, 0.24);
-  /* color: transparent; */
 }
 
 .message-box .message-submit {
-  /* position: absolute; */
-  /* z-index: 1; */
-  /* top: 9px;
-  right: 10px; */
-  /* color: #fff; */
-  /* border: none; */
-  /* background: #248A52; */
-  /* font-size: 10px;
-  text-transform: uppercase;
-  line-height: 1;
-  padding: 6px 10px;
-  border-radius: 10px; */
-  /* outline: none !important; */
   all: unset;
   cursor: pointer;
 }
-
-
-/* .message-box .message-submit:hover {
-  background: #1D7745;
-  background: #fdb8a1;
-} */
 
 .mCSB_scrollTools {
   margin: 1px -3px 1px 0;
@@ -364,10 +329,6 @@ button {
   cursor: pointer;
 }
 
-
-/* .chat{
-  margin-top: 300px;
-} */
 
 
 .chat-btn {
@@ -426,7 +387,6 @@ button {
 }
 
 .fa-paper-plane:hover {
-  /* color: #12b886; */
   color: #0ca678;
 }
 
@@ -440,7 +400,6 @@ button {
 
 .overlay {
   transition: all .5s ease-in-out;
-  /* -webkit-animation: pop-swirl 1s ease forwards; */
 }
 
 
